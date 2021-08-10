@@ -1,0 +1,17 @@
+#results {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "choices" "round-result" "final-result";
+}
+
+.point {
+  grid-area: round-result;
+}
+
+.final-results {
+  grid-area: final-result;
+}
+
+.choices {
+  grid-area: choices;
+}
